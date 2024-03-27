@@ -75,9 +75,29 @@ header h1 {
     font-size: 20px;
     border-radius: 5px;
     cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .todo-item:hover {
     background-color: rgb(244, 219, 227);
 }
 
+.delete {
+    background-color: rgb(204, 228, 221);
+    color: rgb(116, 154, 143);
+    border-radius: 50%;
+    padding: 4px 7px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.no-todo {
+    font-size: 12px;
+    color: gray;
+}
+
+.todo-item:hover .delete {
+    background-color: white;
+}
