@@ -39,8 +39,29 @@ header h1 {
     width: 600px;
     height: fit-content;
     border-radius: 15px;
-    padding: 20px;
     margin-top: 30px;
+}
+
+.card-header {
+    background-color: palevioletred;
+    padding: 20px;
+    border-radius: 15px 15px 0 0;
+}
+
+.add-input {
+    padding: 10px 15px;
+    background-color: rgb(244, 219, 227);
+    border-radius: 999px;
+    width: 100%;
+    border: none;
+}
+
+::placeholder {
+    color: rgb(211, 163, 178);
+}
+
+.card-body {
+    padding: 20px;
 }
 
 .todolist {
@@ -57,5 +78,6 @@ header h1 {
 }
 
 .todo-item:hover {
-    background-color: rgb(237, 198, 211);
+    background-color: rgb(244, 219, 227);
 }
+
